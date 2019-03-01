@@ -1,7 +1,7 @@
 import SanityClient from '@sanity/client'
 import ImageUrlBuilder from '@sanity/image-url'
 
-const NERDNIGHT = '98555641-f6f9-45ac-9066-6415908c2151'
+const EXHIBITION = 'a7aa0820-d039-4956-ab50-0bf75c8d4d15'
 const TIMEOUT = 6000
 const slide = document.getElementById('slide')
 
@@ -17,7 +17,7 @@ let images = []
 let index = 0
 let timer = null
 
-client.getDocument(NERDNIGHT)
+client.getDocument(EXHIBITION)
   .then(exhibition => {
     images = exhibition.images
     timer = setInterval(displaySlide, TIMEOUT)

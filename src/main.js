@@ -1,7 +1,7 @@
 import SanityClient from '@sanity/client'
 import ImageUrlBuilder from '@sanity/image-url'
 
-const EXHIBITION = 'd517bee5-d003-4577-99ed-4bf32f7a04e6'
+const EXHIBITION = '87753637-5cea-434e-ba28-7fc3456e433d'
 const TIMEOUT = 6000
 const slide = document.getElementById('slide')
 
